@@ -1,4 +1,5 @@
-
+import numpy as np
+import plotly.express as px
 
 crimes_dict = {0: 'BATTERY', 1: 'THEFT', 2: 'CRIMINAL DAMAGE', 3: 'DECEPTIVE PRACTICE', 4: 'ASSAULT'}
 
@@ -8,3 +9,4 @@ def predict(X):
 def send_police_cars(X):
     pass
 
+if __name__ == '__main__':
